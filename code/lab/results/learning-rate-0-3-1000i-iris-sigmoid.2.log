@@ -1,0 +1,41 @@
+python2 ../perceptron.py -e1000 -l0.5 -d0 -a sigmoid -t "../datasets/Iris" -o results/learning-rate-0-3-1000i-iris-sigmoid.time_vs_error.log
+../perceptron.py:300: SyntaxWarning: name 'pop_error' is assigned to before global declaration
+  global pop_error
+Running with parameters:
+------------------------
+1000 max epochs
+0.02 g_criterion
+4 input units and 1 bias unit
+4 hidden units
+3 output units
+learning rate = 0.5
+regularization factor = 0.5
+momentum = 0.5
+decay rate = 0.0
+Epoch 100, Population error 0.12
+Epoch 200, Population error 0.12
+Epoch 300, Population error 0.12
+Epoch 400, Population error 0.12
+Epoch 500, Population error 0.12
+Epoch 600, Population error 0.12
+Epoch 700, Population error 0.12
+Epoch 800, Population error 0.12
+Epoch 900, Population error 0.12
+Epoch 1000, Population error 0.12
+Input Weights
+[[  1.43166910e-04   1.43166910e-04   1.43166910e-04   1.43166910e-04]
+ [  8.31253177e-05   8.31253177e-05   8.31253177e-05   8.31253177e-05]
+ [  4.18887390e-04   4.18887390e-04   4.18887390e-04   4.18887390e-04]
+ [  1.06847030e-03   1.06847030e-03   1.06847030e-03   1.06847030e-03]
+ [ -8.18286785e-04  -8.18286785e-04  -8.18286785e-04  -8.18286785e-04]]
+Output Weights
+[[-0.09470578  0.04400527 -0.06089626]
+ [-0.09470578  0.04400527 -0.06089626]
+ [-0.09470578  0.04400527 -0.06089626]
+ [-0.09470578  0.04400527 -0.06089626]]
+Input activations
+[ 0.639  0.416  0.576  0.541]
+Hidden activations
+[ 0.50132144  0.50132144  0.50132144  0.50132144]
+Epoch 1000, Population error 0.12
+0.123390127521 >= 0.02; Error criteion was not reached

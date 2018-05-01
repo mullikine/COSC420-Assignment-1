@@ -1,0 +1,71 @@
+\documentclass{article}
+
+% to include pdf/eps/png files
+\usepackage{graphicx}
+
+% useful to add 'todo' markers
+\usepackage{todonotes}
+
+% hyperrefs
+\usepackage{hyperref}
+
+% nice source code formatting
+\usepackage{minted}
+
+% change style of section headings
+\usepackage{sectsty}
+\allsectionsfont{\sffamily}
+
+% only required for orgmode ticked TODO items, can remove
+\usepackage{amssymb}
+
+% only required for underlining text
+\usepackage[normalem]{ulem}
+
+% often use this in differential operators:
+\renewcommand{\d}{\ensuremath{\mathrm{d}}}
+
+% allow more reasonable text width for most documents than LaTeX default
+\setlength{\textheight}{21cm}
+\setlength{\textwidth}{16cm}
+
+% reduce left and right margins accordingly
+\setlength{\evensidemargin}{-0cm}
+\setlength{\oddsidemargin}{-0cm}
+
+% reduce top margin
+\setlength{\topmargin}{0cm}
+
+% Increase default line spacing a little if desired
+\renewcommand{\baselinestretch}{1.2}
+
+% tailored float handling
+%\renewcommand{\topfraction}{0.8}
+%\renewcommand{\bottomfraction}{0.6}
+%\renewcommand{\textfraction}{0.2}
+
+\begin{document}
+
+\title{\sffamily \textbf{COSC420 Assignment 1}}
+
+\author{Shane Mulligan, University of Otago}
+
+\maketitle
+
+\begin{abstract}
+Given commonly accepted rules of thumb for selecting activation and error functions both individually and in combination, in this report, some of these will be tested to see how well the hold up against my generalized delta rule network.
+
+In particular, the \uline{Relu}, \uline{sigmoid}, \uline{tanh} and \uline{softmax} activation functions are be tested for their performance on the input, hidden and output layers.
+
+Two error functions, \uline{sum of squares} and \uline{negative log likelihood}, are tested for their performance on fitting the data.
+\end{abstract}
+
+
+% include body of the paper, auto generated from orgmode content.org file
+\input{content.tex}
+
+
+% \bibliographystyle{abbrv}
+% \bibliography{paper.bib}
+
+\end{document}

@@ -1,0 +1,7 @@
+python2 ../perceptron.py -H2 -r0.6 -l0 -m0.5 -d0.0001 -a sigmoid -t  -o results/.log
+Traceback (most recent call last):
+  File "../perceptron.py", line 227, in <module>
+    input_data = loadtxt(training_data_path + "/in.txt", dtype=float)
+  File "/usr/lib/python2.7/dist-packages/numpy/lib/npyio.py", line 803, in loadtxt
+    fh = iter(open(fname, 'U'))
+IOError: [Errno 2] No such file or directory: '-o/in.txt'

@@ -1,0 +1,41 @@
+python2 ../perceptron.py -e1000 -l0.2 -d0 -a softmax -t "../datasets/Iris" -o results/regularization-0-2-1000i-iris-softmax.time_vs_error.log
+../perceptron.py:300: SyntaxWarning: name 'pop_error' is assigned to before global declaration
+  global pop_error
+Running with parameters:
+------------------------
+1000 max epochs
+0.02 g_criterion
+4 input units and 1 bias unit
+4 hidden units
+3 output units
+learning rate = 0.5
+regularization factor = 0.2
+momentum = 0.5
+decay rate = 0.0
+Epoch 100, Population error 0.11
+Epoch 200, Population error 0.11
+Epoch 300, Population error 0.11
+Epoch 400, Population error 0.11
+Epoch 500, Population error 0.11
+Epoch 600, Population error 0.11
+Epoch 700, Population error 0.11
+Epoch 800, Population error 0.11
+Epoch 900, Population error 0.11
+Epoch 1000, Population error 0.11
+Input Weights
+[[-0.01426638 -0.01426638 -0.01426638 -0.01426638]
+ [-0.01845087 -0.01845087 -0.01845087 -0.01845087]
+ [-0.00434169 -0.00434169 -0.00434169 -0.00434169]
+ [-0.00737187 -0.00737187 -0.00737187 -0.00737187]
+ [-0.01330063 -0.01330063 -0.01330063 -0.01330063]]
+Output Weights
+[[-0.21389781  0.35868627 -0.14478846]
+ [-0.21389781  0.35868627 -0.14478846]
+ [-0.21389781  0.35868627 -0.14478846]
+ [-0.21389781  0.35868627 -0.14478846]]
+Input activations
+[ 0.333  0.169  0.459  0.376]
+Hidden activations
+[ 0.25  0.25  0.25  0.25]
+Epoch 1000, Population error 0.11
+0.112871422822 >= 0.02; Error criteion was not reached
